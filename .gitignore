@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# キーストア・署名鍵は絶対にコミットしない
+keystores/
+*.jks
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+*.cer
+
+# Jekyll ビルド成果物
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# アプリアイコン原本（GitHub Pages では配信しない）
+app-icons/
